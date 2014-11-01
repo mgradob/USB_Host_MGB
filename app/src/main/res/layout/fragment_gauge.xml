@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:layout_height="500dp"
+    tools:context="com.itesm.mgb.visteonusbhost.GaugeFragment">
+
+    <org.codeandmagic.android.gauge.GaugeView
+        android:id="@+id/gauge_view"
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        showInnerRim="false"/>
+
+    <TextView
+        android:id="@+id/gauge_text_view"
+        android:layout_below="@+id/gauge_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/hello_blank_fragment"
+        android:textColor="@android:color/secondary_text_dark"/>
+
+</RelativeLayout>
